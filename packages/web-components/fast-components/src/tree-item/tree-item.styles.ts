@@ -134,7 +134,7 @@ export const TreeItemStyles = css`
         transition: transform 0.1s linear;
         ${/* transform needs to be localized */ ""} transform: rotate(-45deg);
         pointer-events: none;
-        fill: ${neutralForegroundRestBehavior.var};
+        fill: currentColor;
     }
     .start,
     .end {
@@ -143,7 +143,7 @@ export const TreeItemStyles = css`
             replace when glyph-size var is added */ ""
         } width: 16px;
         height: 16px;
-        fill: ${neutralForegroundRestBehavior.var};
+        fill: currentColor;
     }
 
     .start {
